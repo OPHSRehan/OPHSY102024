@@ -1,0 +1,22 @@
+name  = str(input("Enter name"))
+print(name)
+
+age = int(input("Enter age"))
+print(name)
+
+bestcolour = str(input("Enter favourite colour "))
+print(bestcolour)
+
+price = float(input("Enter the price "))
+print(price)
+
+haircolour =  str(input("Enter your hair colour "))
+print(haircolour)
+
+footballteam = str(input("Enter your favourite foootball team "))
+print(footballteam)
+
+eyecolour = str(input("Enter your eye colour "))
+print(eyecolour)
+
+
