@@ -1,0 +1,13 @@
+#Selection
+
+Team1Points = 9
+Team2Points = 10
+
+if Team1Points < 10:
+  print("Hello")
+  
+if Team2Points < 15:
+  print("Team 2 has",Team2Points)
+  Team2Points = 10
+  
+
