@@ -1,0 +1,37 @@
+1st code
+
+name = str(input("Input your name >>>"))
+for RepeatVariable in range(99):
+  print(name)
+  
+  2nd code
+  
+  for SingleLetter in "France":
+   print(SingleLetter)
+  
+  3rd code
+  
+  for counting in range(50):
+  print(counting)
+
+4th code
+
+for holdingNumbersFromRange in range(9):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  5th code
+  
+for holdingNumbersFromRange in range(4, 15):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  6th code
+  
+  # range(START, STOP, STEP)
+
+for holdingNumbersFromRange in range(5, 20, 5):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  
+  animals = ("fish","cheetah","hamster","lion","frog","snake")
+for nextAnimal in animals:
+  print("The  animal is a",nextAnimal) 
