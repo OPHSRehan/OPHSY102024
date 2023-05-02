@@ -1,4 +1,4 @@
 name = str(input("Enter your name"))
-subject = str(input("What is your favourite subject"+name+"?))
+subject = str(input("What is your favourite subject "+name+"? "))
 
 print("I like",subject,"aswell")
