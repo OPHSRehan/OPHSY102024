@@ -1,0 +1,9 @@
+
+#This is MOD
+print(10%3)
+print(20%6)
+print(14%8)
+
+#This is DIV
+print(20//3)
+print(4//3)
