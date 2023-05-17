@@ -1,0 +1,17 @@
+#Below is a list
+
+UK = ["england","ireland","wales"]
+print(UK)  #Prints whole list
+print(UK[0])  #Indexing
+print(UK[1])  # Displays differnet index
+print(UK[1:2])  # Displays specific index
+
+#Appending to a List
+
+x = "abc"  #New item
+UK.append(x)  #Append new item to list
+print(UK)   #Prints list
+
+z = str(input("Enter country:"))
+UK.append(z)  #Append new item to lis
+print(UK)   #Prints list
