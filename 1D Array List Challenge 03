@@ -1,0 +1,14 @@
+list = []
+
+name1 = str(input("Enter your first friend"))
+name2 = str(input("Enter your second friend"))
+name3 = str(input("Enter your third friend"))
+
+ask1 = str(input("do you want to add another name? y or n")).lower()
+
+if ask1 == "y":
+  while ask1 == "y":
+   name = str(input("enter another name"))
+  
+else:
+  print(list)
