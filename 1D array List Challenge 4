@@ -1,0 +1,11 @@
+shows = ["sky sport","Bt sport","netflix","youtube"]
+
+for i in range(4):
+  print(shows[i])
+
+newProgram = str(input("Enter another tv program"))
+position = int(input("Enter the position for the television program"))
+position = position - 1 
+
+shows.insert(position,newProgram)
+print(shows)
