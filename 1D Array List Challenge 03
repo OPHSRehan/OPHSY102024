@@ -4,11 +4,24 @@ name1 = str(input("Enter your first friend"))
 name2 = str(input("Enter your second friend"))
 name3 = str(input("Enter your third friend"))
 
-ask1 = str(input("do you want to add another name? y or n")).lower()
+list.append(name1)
+list.append(name2)
+list.append(name3)
 
-if ask1 == "y":
-  while ask1 == "y":
+
+
+ask = str(input("do you want to add another name? y or n")).lower()
+
+if ask == "y":
+  while ask == "y":
    name = str(input("enter another name"))
+   list.append(name)
+   
+   ask = str(input("do you want to add another person? y or n")).lower()
   
-else:
+  if ask == "n":
+    print(list)
+    
+elif ask == "n":
   print(list)
+    
