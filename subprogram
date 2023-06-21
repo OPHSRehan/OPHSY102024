@@ -1,0 +1,103 @@
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def multiply(num1, num2):
+  total = num1*num2
+  print(total)
+multiply(number1 , number2)
+
+
+
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def division(num1, num2):
+  total = num1/num2
+  print(total)
+division(number1 , number2)
+
+
+
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def addition(num1, num2):
+  total = num1+num2
+  print(total)
+addition(number1 , number2)
+
+
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def addition(num1, num2):
+  total = num1-num2
+  print(total)
+subtraction(number1 , number2)
+
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def square(num1, num2):
+  total = num1**num2
+  print(total)
+square(number1 , number2)
+
+
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def div(num1, num2):
+  total = num1//num2
+  print(total)
+div(number1 , number2)
+
+
+number1=int(input("Enter a number: "))
+number2=int(input("Enter another number: "))
+
+def mod(num1, num2):
+  total = num1%num2
+  print(total)
+mod(number1 , number2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
